@@ -567,3 +567,105 @@ footer .right p{
     }
 
 }
+
+@media screen and (max-width: 360px) {
+    nav,
+    header,
+    h2.separator,
+    .sell-nft,
+    .nft-shop,
+    .sellers{
+        padding: 0 10px;
+    }
+
+    nav .login .signup{
+        display: none;
+    }
+
+    nav .login button{
+        border-radius: 15px;
+        padding: 6px 10px;
+        background: #dfdcdc;
+        transition: all 0.3s ease;
+    }
+
+    nav .login button:hover{
+        background: #0f2182;
+        color: #edecec;
+    }
+
+    header .left h1{
+        font-size: 23px;
+    }
+
+    header .left a{
+        width: 140px;
+        padding: 4px;
+        border-radius: 40px;
+    }
+    
+    header .left a i{
+        font-size: 20px;
+        border-radius: 50%;
+        padding: 4px;
+    }
+    
+    header .left a span{
+        margin-left: 10px;
+    }
+
+    header img{
+        width: 100%;
+    }
+
+    .nft-shop .category{
+        flex-wrap: wrap;
+    }
+
+    .nft-shop .category a{
+        font-size: 14px;
+    }
+
+    .nft-shop .nft-list .item,
+    .sellers .item{
+        width: 46.9%;
+    }
+
+    .nft-shop .nft-list .item .bid{
+        flex-direction: column;
+        gap: 7px;
+    }
+    
+    .nft-shop .nft-list .item .bid p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .view-more button{
+        padding: 8px 16px;
+        font-size: 14px;
+        border-radius: 15px;
+    }
+
+    .sellers .item{
+        width: 100%;
+    }
+
+    footer h3{
+        font-size: 26px;
+    }
+
+    footer .right .links{
+        flex-direction: column;
+        align-self: flex-start;
+    }
+
+    footer .right .links a{
+        font-size: 16px;
+    }
+
+    footer .right .social i{
+        font-size: 24px;
+    }
+
+}
