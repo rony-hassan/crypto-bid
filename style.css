@@ -568,7 +568,7 @@ footer .right p{
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 477px) {
     nav,
     header,
     h2.separator,
@@ -577,11 +577,7 @@ footer .right p{
     .sellers{
         padding: 0 10px;
     }
-
-    nav .login .signup{
-        display: none;
-    }
-
+    
     nav .login button{
         border-radius: 15px;
         padding: 6px 10px;
@@ -668,4 +664,10 @@ footer .right p{
         font-size: 24px;
     }
 
+}
+
+@media screen and (max-width: 444px) {
+    nav .login .signup{
+        display: none;
+    }
 }
