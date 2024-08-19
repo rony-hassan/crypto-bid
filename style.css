@@ -671,3 +671,18 @@ footer .right p{
         display: none;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .nft-shop .nft-list .item{
+        width: 100%;
+    }
+
+    .nft-shop .nft-list .item .bid{
+        flex-direction: row;
+    }
+
+    .nft-shop .nft-list .item .bid p{
+        width: 30%;
+        text-align: center;
+    }
+}
